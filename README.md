@@ -16,5 +16,6 @@ docker run -d --name islandora-enterprise-all-in-one -p 80:80 -p 8080:8080 jeffe
 Once it's up and running, visit your host/container's IP (or hostname, depending on your network setup) and login to Drupal (Islandora) with:
 
 Username: admin
+
 Password: islandora
 
