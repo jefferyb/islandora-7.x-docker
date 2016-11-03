@@ -20,6 +20,7 @@ docker run -d --name islandora-enterprise-all-in-one -p 80:80 -p 8080:8080 jeffe
 
 Here are the available volumes (Please let me know if there's one that I might have missed and I can add it... Thanks)
 
+```Dockerfile
 ##### MYSQL
 VOLUME /var/lib/mysql
 
@@ -32,6 +33,7 @@ VOLUME /var/www/html/sites
 
 ##### SOLR
 VOLUME /usr/local/fedora/solr
+```
 
 ## Docker Compose example:
 
